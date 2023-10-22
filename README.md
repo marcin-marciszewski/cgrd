@@ -1,4 +1,4 @@
-### To run the project Appace and MySQL servers are needed.
+### To run the project Apache and MySQL servers are needed.
 
 #### Deployed version: https://phpstack-1151150-4006325.cloudwaysapps.com/
 
