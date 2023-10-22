@@ -1,18 +1,33 @@
+### To run the project Appace and MySQL servers are needed.
+
+#### Deployed version: https://phpstack-1151150-4006325.cloudwaysapps.com/
+
 ### Database creation:
+
 ##### Connect to mysql and run queries :
-#### 
-######  Create the 'cgrd' database:
-#### 
+
+####
+
+###### Create the 'cgrd' database:
+
+####
+
 ```
 CREATE DATABASE cgrd;
 ```
-######  Switch to the 'cgrd' database:
-#### 
+
+###### Switch to the 'cgrd' database:
+
+####
+
 ```
 USE cgrd;
 ```
-######  Create the 'users' table:
-#### 
+
+###### Create the 'users' table:
+
+####
+
 ```
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -20,8 +35,11 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL
 );
 ```
-######  Create the 'news' table:
-#### 
+
+###### Create the 'news' table:
+
+####
+
 ```
 CREATE TABLE news (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -30,8 +48,10 @@ CREATE TABLE news (
 );
 ```
 
-######  Insert admin user:
-#### 
+###### Insert admin user:
+
+####
+
 ```
 INSERT INTO users (username, password) VALUES ('admin', 'test');
 ```
