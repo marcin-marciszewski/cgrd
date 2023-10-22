@@ -10,7 +10,7 @@
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: var(--blue);
 }
 
@@ -44,12 +44,12 @@ body {
   margin: 10px 0;
   width: 50vw;
   max-width: 50vw;
-  height: 40px;
+  height: 50px;
   border: 1px #e8e7e7 solid;
   border-radius: 3px;
   padding-left: 10px;
   background-color: #fcfcfc;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 textarea {
@@ -61,26 +61,27 @@ textarea {
 
 input[type="text"],
 textarea {
-  font-size: 14px;
+  font-size: 1rem;
   font-family: sans-serif;
 }
 
 .btn {
-  font-size: 14px;
+  font-size: 1.1rem;
   color: var(--white);
   background-color: var(--blue);
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
 }
 
 .btn-edit {
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
   background-image: url("/public/images/pencil.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 10px;
+  background-size: 14px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .btn-delete,
@@ -91,10 +92,10 @@ textarea {
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
-  background-size: 10px;
+  background-size: 14px;
   position: relative;
   top: 1px;
-  right: -15px;
+  right: -10px;
   background-color: transparent;
   color: transparent;
 }
@@ -107,7 +108,7 @@ textarea {
 
 .input-text::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  font-size: 12px;
+  font-size: 14px;
   color: #5c7aa4;
 }
 
@@ -133,19 +134,20 @@ textarea {
   width: unset;
   text-decoration: none;
   text-align: center;
-  line-height: 40px;
+  line-height: 60px;
   display: block;
   margin-top: 0;
 }
 
 .message {
   background: red;
-  height: 50px;
-  line-height: 50px;
-  font-size: 14px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1rem;
   text-align: center;
   width: 50vw;
 }
+
 .message-error {
   background: #fef2f1;
   color: #f97e75;
@@ -173,14 +175,15 @@ textarea {
 
 .news-info-title {
   color: var(--blue);
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   margin-right: 10px;
+  margin-left: 5px;
 }
 
 .news-info-description {
   color: var(--blue);
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .edit-header {
