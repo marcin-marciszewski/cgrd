@@ -1,7 +1,5 @@
 <?php
 
-
-
 class Users extends Controller
 {
     private $userModel;
@@ -34,8 +32,6 @@ class Users extends Controller
                 redirect('users/login');
             }
         } else {
-
-
             $this->view('users/login');
         }
     }

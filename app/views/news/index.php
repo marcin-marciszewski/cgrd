@@ -42,7 +42,5 @@
         <?php endif; ?>
         <a class="btn universal-size logout-btn" href="<?= URLROOT ?>/users/logout">Logout</a>
     </div>
-
-
 </div>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
