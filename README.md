@@ -1,5 +1,7 @@
 ### To run the project Apache and MySQL servers are needed.
 
+### If needed change database credentials in : app/confing/config.php
+
 #### Deployed version: https://phpstack-1151150-4006325.cloudwaysapps.com/
 
 ### Database creation:
